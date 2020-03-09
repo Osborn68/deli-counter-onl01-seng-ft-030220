@@ -15,6 +15,7 @@ end
    puts "Welcome, #{name}. You are number #{katz_deli.length} in line."
  end
  
+<<<<<<< HEAD
 def now_serving(name)
 if name.length== 0
    puts "There is nobody waiting to be served!"
@@ -23,3 +24,8 @@ if name.length== 0
    name.shift
   end 
 end
+=======
+ def now_serving(katz_deli, name)
+   katz_deli << name
+   puts "Currently serving #{name}."
+>>>>>>> 16f23a4342a973ce182eb7b1408a14ed1cb5f0f9
